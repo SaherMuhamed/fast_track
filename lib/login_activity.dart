@@ -236,7 +236,8 @@ class _LoginActivityState extends State<LoginActivity> {
                                     // style: alertStyle,
                                     style: AlertStyle(
                                       alertBorder: RoundedRectangleBorder(
-                                        borderRadius: BorderRadius.circular(30.0),
+                                        borderRadius:
+                                            BorderRadius.circular(30.0),
                                       ),
                                       backgroundColor: const Color(0xFFF5F5F5),
                                       isOverlayTapDismiss: false,
@@ -263,7 +264,8 @@ class _LoginActivityState extends State<LoginActivity> {
                                         child: const Text(
                                           "Back",
                                           style: TextStyle(
-                                              color: Colors.white, fontSize: 20),
+                                              color: Colors.white,
+                                              fontSize: 20),
                                         ),
                                       ),
                                     ],
@@ -273,7 +275,8 @@ class _LoginActivityState extends State<LoginActivity> {
                                     // style: alertStyle,
                                     style: AlertStyle(
                                       alertBorder: RoundedRectangleBorder(
-                                        borderRadius: BorderRadius.circular(30.0),
+                                        borderRadius:
+                                            BorderRadius.circular(30.0),
                                       ),
                                       backgroundColor: const Color(0xFFF5F5F5),
                                       isOverlayTapDismiss: false,
@@ -301,7 +304,8 @@ class _LoginActivityState extends State<LoginActivity> {
                                         child: const Text(
                                           "Try again",
                                           style: TextStyle(
-                                              color: Colors.white, fontSize: 20),
+                                              color: Colors.white,
+                                              fontSize: 20),
                                         ),
                                       ),
                                     ],
@@ -332,7 +336,12 @@ class _LoginActivityState extends State<LoginActivity> {
                           ),
                           TextButton(
                             onPressed: () {
-                              Navigator.push(context, MaterialPageRoute(builder: (context) => const ParentSignUpActivity()),);
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) =>
+                                        const ParentSignUpActivity()),
+                              );
                             },
                             child: const Text(
                               'Sign up',
